@@ -1,0 +1,4 @@
+Pillow==9.2.0
+plyer==2.0.0
+pyperclip==1.8.2
+pyzbar==0.1.9
