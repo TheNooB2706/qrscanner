@@ -38,10 +38,14 @@ Download the binary to any convenient place. You may install it to `/usr/bin` if
 
 You might need to install zbar shared library.  
 Debian/Ubuntu and derivatives:  
-```sudo apt install libzbar0```
+```
+sudo apt install libzbar0
+```
 
 Additionally, `xclip` needs to be installed:  
-```sudo apt install xclip```
+```
+sudo apt install xclip
+```
 
 ### Binding to shortcut key
 The exact procedure might vary depending on different desktop environment. You may want to search online for DE specific guide.
@@ -54,7 +58,9 @@ Custom shortcut can be set by going to System Settings > Shortcuts > Custom Shor
 Next, go over the "Trigger" tab and choose your key combination.
 
 At the "Action" tab, set the command to the following:  
-```/path/to/qrscanner -bind```  
+```
+/path/to/qrscanner -bind
+```  
 Replace the path with actual path.
 
 ### Screenshot and copy to clipboard
