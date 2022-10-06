@@ -24,14 +24,21 @@ Append ` -bind` to the "Target" field.
 
 Then, click on "Shortcut key" field and press your key combination.
 
-You can also make the created shortcut hidden to prevent it from cluttering the desktop.
+~~You can also make the created shortcut hidden to prevent it from cluttering the desktop.~~ Keybinding breaks after reboot when you set the shortcut to hidden.
 
 ![](../assets/hidden.png?raw=true)
 
-If you prefer, you may bind the shortcut key with third-party programs instead as well.
+If you prefer, you may bind the shortcut key with third-party programs such as [AutoHotkey](https://www.autohotkey.com/) instead as well.
 
 ### Screenshot and copy to clipboard
 By default, the shortcut key `Alt-PrintScreen` will screenshot the current active window and copy it to clipboard. This can be used in conjunction with this program to scan QR code on screen, which is the intended use case of this program.
+
+Some other default shortcut keys:  
+* `PrintScreen` will screenshot the whole screen and copy to clipboard.
+* `Win-Shift-S` allows select and screenshot custom region on screen and copy to clipboard.
+
+### Missing DLLs
+If you get any error messages about missing DLLs when using the prebuilt binary, try installing [vcredist](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 ## Linux
 Download the binary to any convenient place. You may install it to `/usr/bin` if you want.
