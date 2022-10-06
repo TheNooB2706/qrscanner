@@ -22,7 +22,10 @@ def linux_grabimage():
 
 def other_grabimage():
     img = ImageGrab.grabclipboard()
-    return img
+    if type(img) == list: #grabclipboard can return a list of filename if the user copied file, which is not what we need
+        return None
+    else:
+        return img
 
 bind = False
 cur_os = sys.platform
